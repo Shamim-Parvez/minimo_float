@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{}
+header{
+    
+    padding: 30px 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.logo a img{
+    max-width: 100%;
+    padding: 10px 15px;
+    transition: .6s;
+    background-color: rgba(169, 169, 169, 0.137);
+}
+.logo a img:hover{
+    background-color:rgba(255, 99, 71, 0.116);
+    text-shadow: 5px 10px 50px aqua;
+    transform: scale(1.1);
+}
+nav{
+    width: 80%;
+    float: left;
+}
+nav ul{
+    list-style: none;
+    text-align: right;
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 15px;
+    padding-right: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000000a1;
+    padding: 10px 20px;
+    display: block;
+    background-color: rgba(0, 139, 139, 0.068);
+    transition: .4s;
+}
+nav ul li a:hover{
+    color:tomato;
+    text-shadow: 5px 10px 50px aqua;
+    transform: scale(1.2);
+   
+}
+.banner{
+    padding-bottom: 30px;
+}
+.banner img{
+  max-width: 100%;
+}
+.getway{
+ padding-top: 20px;
+}
+.wrapper{
+    width: 60%;
+    margin: auto;
+}
+
+.content{}
+.content a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.658);
+    padding: 15px 0;
+    display: block;
+}
+.content h1{
+    color: rgba(0, 0, 0, 0.747);
+    padding: 20px 0;
+}
+.content p{
+    color: rgba(0, 0, 0, 0.897);
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+
+
+.floating{
+    padding: 40px 0;
+}
+.colamn{
+    overflow: hidden;
+}
+.col-1{
+    width: 48%;
+    float: left;
+    
+}
+.colamn img{
+    max-width: 100%;
+}
+.colamn a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.658);
+    padding: 15px 0;
+    display: block;
+}
+.colamn h1{
+    color: rgba(0, 0, 0, 0.747);
+    padding: 20px 0;
+}
+.colamn p{
+    color: rgba(0, 0, 0, 0.897);
+    padding-bottom: 20px;
+    font-family: sans-serif;
+}
+
+.col-2{
+    width: 48%;
+    float: right;
+}
+footer{
+    background-color:rgba(0, 0, 0, 0.075);
+    padding: 30px 0;
+}
+.terms{
+    float: left;
+}
+.terms a{text-decoration: none;
+    color: rgba(0, 0, 0, 0.932);
+    display: inline-block;
+    padding: 0 10px;    
+}
+.link{
+    float: right;
+}
+.link a{text-decoration: none;
+    color: rgba(0, 0, 0, 0.932);
+    display: inline-block;
+    padding: 0 10px;
+}
+
+
+
+
+
